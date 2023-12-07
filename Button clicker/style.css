@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(115, 115, 115);
+    height: 70px;
+    align-items: center;
+    padding: 0 20px;
+}
+.pageformat{
+    max-width: 50%;
+    margin: auto; 
+  
+}
+button{
+    color: aliceblue;
+    background-color: rgb(61, 61, 139);
+    padding: 5px 10px;
+    border-bottom: 4px solid #000; 
+    border-right: 4px solid #000;
+  
+}
+
+.d-flex{
+    display: flex;
+}
+
+.contaimer{
+ width:300px;
+ height: 200px;
+ border: 3px solid gainsboro;
+ padding: 10px;
+margin-top: 10px;
+}
+.container2{
+    width: 180px;
+    margin-top: 10px;
+
+    border: 3px solid gainsboro;
+    padding: 10px;
+}
+
+main{
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+.buttom-c{
+    float: left;
+   margin-left: 35px;
+   
+}
+
+.button-color{
+    background-color: rgb(255, 179, 0);
+    font-weight: bold;
+    
+}
+#greenbutton{
+    background-color: rgb(92, 159, 92); 
+}
