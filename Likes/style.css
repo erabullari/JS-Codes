@@ -1,0 +1,30 @@
+.container{
+    background-color: yellow;
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    
+}
+main{
+ width:700px;
+ margin: auto;
+ justify-content: center;
+ padding: auto;
+
+}
+
+.j-flex{
+    display: flex;
+    justify-content:space-evenly;
+}
+button{
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+}
+.align-center{
+    align-items: center;
+}

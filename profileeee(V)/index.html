@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <header class="d-flex ">
+        <ul class="d-flex list">
+            <li id="profile">Profile</li>
+            <li>Home</li>
+            <li id="myprofil">My Profile</li>
+            <li>Find Conection</li>
+        </ul>
+        <button>Sing Out</button>
+    </header>
+    <main>
+    <div class="first-row d-flex">
+        <div class="first-container">
+            <div class="topdiv">
+                <img src="user-circle.png" alt="user-circle">
+            </div>
+            <div class="bottomdiv">
+                <h1 id="personalename">Jane Doe</h1>
+                <div class="d-flex">
+                    <img src="map-marker.png" alt="map-marker">
+                    <h3>Sattle</h3>
+                </div>
+                <p>DEveloper| Eninier | Problem Solving</p>
+                <p>MAster of shadow and internet</p>
+                <div class="d-flex general">
+                    <img src="gear.png" alt="general">
+                    <a href="#" onclick="changedname()">edit profile</a>
+                </div>
+            </div>
+        </div>
+        <div  class="second-container">
+                <div class="d-flex general title">
+                    <h1 id="requestnumber">2+</h1>
+                    <h2>Conection Request</h2>
+                </div>
+                <div  id="person1" class="request  d-flex j-between  align-center">
+                    <img src="user-circle.png" alt="user" class="profilepic">
+                    <h3> Jane Doe</h3>
+                    <img id="acept" src="accept-circle.png" onclick="addPerson('person1')" alt="accept-circle" class="acceptpic">
+                    <img id="delet" onclick="removePerson('person1')" src="close-circle.png" alt="close">
+                </div>
+                <div id="person2"  class="request d-flex  j-between  align-center">
+                    <img src="user-circle.png" alt="user" class="profilepic">
+                    <h3> Jane Doe</h3>
+                    <img id="acept" src="accept-circle.png" onclick="addPerson('person2')" alt="accept-circle" class="acceptpic">
+                    <img  id="delet" src="close-circle.png"  onclick="removePerson('person2')" alt="close">
+                </div>
+                
+        </div>
+    </div>
+
+
+
+
+    <div class="last-row d-flex">
+        <div class="third-container">
+            <h2>Education</h2>
+            <h4>Coding Dojo - Full stac course</h4>
+            <p id="silver-tex">dec 2019 - may 2020</p>
+            <p> Triple black belt in python</p>
+        </div>
+        <div id="forthdiv" class="forth-container">
+            <div class="d-flex general title">
+                <h1 id="follower">500+</h1>
+                <h2>Friends</h2>
+            </div>
+            <div  class="request d-flex j-between  align-center">
+                <img src="user-circle.png" alt="user" class="profilepic">
+                <h3> Jane Doe</h3>
+                
+            </div>
+            <div  class="request d-flex j-between  align-center">
+                <img src="user-circle.png" alt="user" class="profilepic">
+                <h3> Jane Doe</h3>
+            </div>
+            <div  class="request d-flex j-between  align-center">
+                <img src="user-circle.png" alt="user" class="profilepic">
+                <h3> Jane Doe</h3>
+            </div>
+            <div  class="request d-flex j-between  align-center">
+                <img src="user-circle.png" alt="user" class="profilepic">
+                <h3> Jane Doe</h3>
+            </div>
+
+        </div>
+    </div>
+    </main>   
+</body>
+</html>

@@ -1,0 +1,150 @@
+header{
+    background-color: black;
+    color: beige;
+   justify-content: center;
+   font-size: 20px;
+   padding: 5px;
+}
+
+#profile{
+    font-size: 30px;
+    font-weight: bold;
+}
+#myprofil{
+    font-weight: bold; 
+   
+}
+
+.list  li {
+  list-style: none;
+  padding-left: 30px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    margin: 15px 0 0 19%;
+   font-size: 18px;
+    color: aliceblue;
+    background-color: rgb(57, 102, 102);
+}
+
+
+.first-container{
+   width: 500px;
+    height: auto;
+    border: 2px double silver;
+}
+
+main{
+align-items: center;
+margin: 100px 25%;
+
+
+}
+.topdiv{
+    width: auto;
+    height: 100px;
+    background-color: rgb(60, 95, 95);
+}
+
+.topdiv img{
+    height: 60px;
+    width: 60px;
+    padding-left: 20px;
+    position:relative;
+   top:70%;
+    
+}
+.d-flex{
+    display: flex;
+}
+.bottomdiv{
+    width: auto;
+    padding: 10px;
+   
+}
+
+.bottomdiv img{
+    height: 40px;
+    width: 30px;
+    padding: 10px;
+}
+
+.general{
+    align-items: center;
+   gap: 10px;
+}
+.general img{
+    height: 30px;
+    width:30px;
+}
+
+.second-container{
+    height: 250px;
+    width: 300px;
+    margin: 0 15px;
+    border: 2px double silver;
+}
+
+.p-10{
+    padding: 10px;
+}
+.title{
+    background-color: rgb(43, 42, 42);
+    color: azure;
+}
+.title h1{
+    border-radius: 50%;
+    background-color: antiquewhite;
+    padding: 4px;
+    color: black;
+    margin-left: 10px;
+    
+}
+
+.request img{
+ height: 40px;
+ width: 40px;
+}
+
+.profilepic{
+   margin: 0px 15px;
+}
+
+.acceptpic{
+    margin-left: 20%;
+}
+.align-center{
+    align-items: center;
+}
+
+.third-container{
+    width: 500px;
+    height:200px;
+    border: 2px double silver;
+    margin-top: 15px;
+    
+}
+.third-container h2{
+    background-color: rgb(45, 43, 43);
+    color: azure;
+    margin: 0;
+    padding: 10px 15px;
+}
+ 
+.third-container h4, p {
+    margin-left: 15px;
+}
+
+#silver-tex{
+ font-size: larger;
+ color: rgb(110, 107, 107);
+}
+
+.forth-container{
+    margin: 15px;
+    border: 2px double silver;
+    width: 300px;
+    position: relative;
+    bottom: 150px;
+height: auto;}
