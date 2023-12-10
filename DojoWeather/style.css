@@ -27,7 +27,7 @@ header li{
 }
 main{
     width: 50rem;
-    margin: 3.3rem 23rem;
+    margin: 3.3rem 24rem;
 }
 .nav-bottom{
     justify-content: space-between;
@@ -90,6 +90,8 @@ img{
     margin-top: 15px;
     align-items: center;
     border: 3px solid silver;
+    position: fixed;
+    width: 50rem;
 }
 .cookie img{
     height: 80px;
