@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⛅ Weather</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./scripti.js"></script>
+</head>
+<body>
+    <header class="d-flex">
+            <h1>DojoWeather</h1>
+            <ul class="d-flex">
+                <li onclick="message(this)">Burbank</li>
+                <li onclick="message(this)">Chicago</li>
+                <li onclick="message(this)">Dallas</li>
+            </ul>
+    </header>
+    <main>
+         <div class="d-flex nav-bottom">
+                <h1>San Joes</h1>
+                <div class="temp-section">
+                    <p>show temperature in </p>
+                
+                    <select name="temperature"  id="mySelect" class="temperature" onchange="toFehratOnChange(this.value)">
+                            <option value="C" id="optionC" >C</option>
+                            <option value="F" id="optionF">F</option>
+                    </select>
+                </div>
+         </div>
+         <div class="d-flex meteor-container">
+            <div class="b-color">
+                <h3 class="d-flex center ">Today</h3>
+                <img src="./image/some_rain.png" alt="somerain">
+                <p class="d-flex center ">Some Rain</p>
+                <div class="d-flex center space-evenly pading-20px">
+                    <p class="kuqe" >24°</p>
+                    <p class="kuqe" id="blu">18°</p>
+                </div>
+            </div>
+            <div class="b-color">
+                <h3 class="d-flex center ">tomorrow</h3>
+                <img src="./image/some_sun.png" alt="somesun">
+                <p class="d-flex center ">Some Sun</p>
+                <div class="d-flex center space-evenly pading-20px">
+                    <p class="kuqe" id="kuqe">27°</p>
+                    <p class="blu" id="blu">19°</p>
+                </div>
+            </div>
+            <div class="b-color">
+                <h3 class="d-flex center ">Friday</h3>
+                <img src="./image/some_clouds.png" alt="some_clouds">
+                <p class="d-flex center ">Some Cloudes</p>
+                <div class="d-flex center space-evenly pading-20px">
+                    <p class="kuqe"  >21°</p>
+                    <p class="kuqe" id="blu">16°</p>
+                </div>
+            </div>
+            <div class="b-color">
+                <h3 class="d-flex center ">Sunday</h3>
+                <img src="./image/some_sun.png" alt="somerain">
+                <p class="d-flex center ">Some Sun</p>
+                <div class="d-flex center space-evenly pading-20px">
+                    <p class="kuqe"  >20°</p>
+                    <p class="kuqe" id="blu">21°</p>
+                </div>
+            </div>
+            
+
+            
+         </div>
+         <div class="d-flex cookie" id="cookie">
+                <img src="./image/cookie.png" alt="cookie">
+                <div class="cookie-text">
+                    <h1>Stop! Cookie time .</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse magnam id commodi debitis unde voluptates tempora quaerat, beatae blanditiis?</p>
+                </div>
+                <button onclick="removeCookie(this)">Accept</button>
+        </div>
+    </main>
+
+</body>
+</html>
