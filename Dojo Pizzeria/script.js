@@ -15,14 +15,13 @@ console.log(pica2)
 
 
 ///random pizza
+
 function randomPizza() {
-    var randomNumber = Math.random(); // Generates a random number between 0 and 1
-
-    if (randomNumber < 0.5) {
-        return pica1;
-    } else {
-        return pica2;}
-
+    var cheese =[ 'gorgonzola','spicychees']
+    var vegets =['speca','ullinj','domate','pereroni']
+    var sausage =[ 'perperoni sausage','normal sausage']
+   var piac3= cheese[Math.floor(Math.random() * cheese.length)]+vegets[Math.floor(Math.random() * vegets.length)]+sausage[Math.floor(Math.random() * sausage.length)]
+return piac3;
 
 }
 var randomPizzaResult = randomPizza();

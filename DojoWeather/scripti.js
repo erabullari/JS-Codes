@@ -16,7 +16,7 @@ function toFehratOnChange(selectedOption) {
         for (var i = 0; i < kuqeElements.length; i++) {             
             var numriGradeve = parseInt(kuqeElements[i].innerHTML);  //aksesohen klasat nepermjet indeksit 
             var numriFefrat = Math.round((numriGradeve * 1.8) + 32);
-            kuqeElements[i].innerHTML = numriFefrat;
+            kuqeElements[i].innerHTML = numriFefrat + ' F';
         }
     }
     // Check if the selected option is 'C'
